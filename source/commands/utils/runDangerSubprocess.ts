@@ -8,6 +8,8 @@ import { markdownCode, resultsWithFailure, mergeResults } from "./reporting"
 
 const d = debug("danger:runDangerSubprocess")
 
+const d = debug("danger:runDangerSubprocess")
+
 // Sanitizes the DSL so for sending via STDOUT
 export const prepareDangerDSL = (dangerDSL: DangerDSLJSONType) => {
   if (dangerDSL.github && dangerDSL.github.api) {
