@@ -237,7 +237,7 @@ export interface GitHubUser {
   /**
    * Whether the user is an org, or a user
    */
-  type: "User" | "Organization" | "Bot"
+  type: "User" | "Organization"
   /**
    * The url for a users's image
    */
